@@ -2,22 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-    font-family: Alice;
-    line-height: 24px;
+  font-family: Alice;
+  line-height: 24px;
 }
 :root {
   --surface-color: #f0e8c2;
 }
 
-
 body {
   background-image: url("./assets/bg-image.png");
   background-size: cover;
   background-position: center;
-
 }
-
-
 
 #page {
   display: flex;
@@ -28,11 +24,11 @@ body {
   max-width: 100%;
   padding: 24px;
   margin: 48px auto;
-  margin:10px;
+  margin: 10px;
   border-radius: 16px;
 }
 img {
-  max-width:100%;
+  max-width: 100%;
   border-radius: 16px;
   margin: 24px;
 }
@@ -41,46 +37,40 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
- max-width: 600px;
- 
+  max-width: 600px;
 }
-.title{
-    font-size: 40px;
-    line-height: 140%;
+.title {
+  font-size: 40px;
+  line-height: 140%;
 }
-.time-preparation{
-    column-count:3 ;
+.time-preparation {
+  column-count: 2;
 }
 #about {
   font-size: 16px;
-
 }
-p{
-    margin:10px
+p {
+  margin: 10px;
 }
 #ingredients {
   font-size: 16px;
   margin: 10px;
 }
 
-
-
-#preparation{
-    text-align: justify;
-    display: flex;
-    flex-direction: column;
-   
+#preparation {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
 }
 
-footer{
-    text-align: center;
-   
+footer {
+  text-align: center;
 }
 footer a {
-     text-decoration: none;
-     color: black;
+  text-decoration: none;
+  color: black;
 }
-footer a:hover{
-    text-decoration: underline;
-    color:rgb(1, 41, 28)
+footer a:hover {
+  text-decoration: underline;
+  color: rgb(1, 41, 28);
 }
