@@ -25,9 +25,10 @@ body {
   align-items: center;
   justify-content: center;
   background: var(--surface-color, #f0e8c2);
-  width: 100%;
+  max-width: 100%;
   padding: 24px;
   margin: 48px auto;
+  margin:10px;
   border-radius: 16px;
 }
 img {
@@ -42,6 +43,10 @@ main {
   justify-content: center;
  max-width: 600px;
  
+}
+.title{
+    font-size: 40px;
+    line-height: 140%;
 }
 .time-preparation{
     column-count:3 ;
